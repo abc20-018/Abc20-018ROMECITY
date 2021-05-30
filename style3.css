@@ -1,7 +1,7 @@
  *
  {
- 	margin:0;
- 	padding: 0;
+ 	margin:0; /*margin for everything*/
+ 	padding: 0;  /*padding for everything*/
   }header
 {
   background-image:url(hj.jpeg);
@@ -51,13 +51,13 @@
 
 body
 {
-  font font-family: monospace;
+  font-family: monospace;
 }
 
 .row
 {
   max-width: 1200px
-  margin:auto; 
+  margin: auto; 
 }
 
 .hero
@@ -88,7 +88,7 @@ body
 /* Style inputs with type="text", select elements 
 and textareas */
 input[type=text], select, textarea {
- 0 width: 100%; /* Full width */
+  width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
   border: 1px solid #ccc; /* Gray border *
 /
